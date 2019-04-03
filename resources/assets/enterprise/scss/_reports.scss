@@ -1,0 +1,28 @@
+.reports{
+	margin: 50px 0;
+	.report-graph{
+		display: flex;
+		justify-content: flex-start;
+
+		.inline{
+			display: inline-block;
+		}
+		.circle{
+			border-radius: 50%;
+			height: 10px;
+			width: 10px;
+			display: inline-block;
+
+			&__men{
+				background: $blue;
+			}
+
+			&__women{
+				background: $red;
+			}
+		}
+	}
+	.container{
+		margin-left: 10%;
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "/admin/vendor/js/inspinia.min.js": "/admin/vendor/js/inspinia.min.js",
+    "/admin/js/sequence_create.min.js": "/admin/js/sequence_create.min.js",
+    "/client/css/app.css": "/client/css/app.css",
+    "/admin/css/style.css": "/admin/css/style.css",
+    "/enterprise/css/style.css": "/enterprise/css/style.css",
+    "/enterprise/js/uploadFile.min.js": "/enterprise/js/uploadFile.min.js",
+    "/enterprise/js/enterprise.min.js": "/enterprise/js/enterprise.min.js",
+    "/enterprise/js/addClerks.min.js": "/enterprise/js/addClerks.min.js",
+    "/admin/vendor/js/bootstrap.min.js": "/admin/vendor/js/bootstrap.min.js",
+    "/admin/vendor/js/jquery-3.1.1.min.js": "/admin/vendor/js/jquery-3.1.1.min.js"
+}

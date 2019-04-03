@@ -1,0 +1,48 @@
+.login{
+	&__header{
+		display: flex;
+		justify-content: space-between;
+		background: white;
+		border-top: 9px $red solid;
+		height: 102px;
+		img{
+			margin: 15px 40px;
+		}
+	}
+	&__body{
+		background-color: $blue;
+		background-image: url(/images/foto-fondo.jpeg);
+		background-size: cover;
+		height: calc(100vh - 102px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.login-box{
+		background-color: white;
+		width: 384px;
+		&__header{
+			padding: 16px;
+			font-weight: bold;
+			background-color: $blue;
+			color: white;
+			text-align: center;
+			text-transform: uppercase;
+			font-family: roboto;
+			font-size: 16px;
+		}
+		form{
+			padding: 40px 50px;
+			div{
+				display: flex;
+			}
+			i{
+				color: $blue;
+				font-size: 18px;
+				width: 42px;
+				text-align: center;
+				line-height: 33px;
+			}
+		}
+	}
+}

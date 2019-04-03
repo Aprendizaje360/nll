@@ -1,0 +1,37 @@
+
+.instructions{
+    text-align: center;
+    margin: 50px 0;
+    img{
+        height: 38px;
+    }
+    p{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+.interventions{
+    padding: 40px 0;
+    background-color: #EBEFF2;
+}
+.clerks{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    &__left{
+        width: 70%;
+    }
+    &__right{
+        width: 30%;
+        padding: 30px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 24px;
+            color: #114275;
+            font-weight: normal;
+            margin: 10px 0 16px;
+        }
+    }
+}

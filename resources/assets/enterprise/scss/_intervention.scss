@@ -1,0 +1,54 @@
+.sales{
+	margin: 50px 0;
+	.desc{
+		&__top{
+			display: flex;
+			justify-content: space-between;
+			.lisences{
+				th, td{
+					font-weight: normal;
+					padding: 0 9px;
+				}
+				.users{
+					background-color: $blue;
+					border-radius: 50%;
+					color: white;
+					height: 27px;
+					width: 27px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin: 0 auto;
+				}
+				.date{
+					font-weight: bold;
+				}
+			}
+		}
+		&__bottom{
+			display: flex;
+			justify-content: space-between;
+			div{
+				&:first-child{
+					width: 40%;
+				}
+				&:nth-child(2){
+					width: 55%;
+				}
+			}
+		}
+	}
+	img{
+        height: 48px;
+    }
+    .add-users{
+		form{
+			display: inline;
+		}
+    	&__head{
+			a{
+				color: $gray;
+			}
+    	}
+    }
+}
